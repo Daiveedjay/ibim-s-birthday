@@ -127,6 +127,7 @@ img:hover {
 @media (max-width: 450px) {
   .slide {
     border: 2px solid red;
+    max-width: 275px;
   }
   .side-images div {
     height: 75px;
