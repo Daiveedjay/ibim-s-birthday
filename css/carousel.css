@@ -22,10 +22,6 @@
   transform-origin: center;
 }
 
-.crs-ctrl-btn:hover {
-  background: #999;
-}
-
 @keyframes btn-bounce {
   0% {
     scale: 1;
@@ -67,12 +63,7 @@
   position: absolute;
   transform-origin: center;
   transition-timing-function: ease;
-  /* transition-duration: 320ms; */
   overflow: hidden;
-
-  /* Slow motion */
-  /* transition-duration: 2s !important;
-  transition-timing-function: linear; */
 }
 
 .crs-img {
