@@ -9,8 +9,8 @@ images[0] = "./img/Slideshows/slideshow-01.jpeg";
 images[1] = "./img/Slideshows/slideshow-02.jpeg";
 images[2] = "./img/Slideshows/slideshow-03.jpeg";
 images[3] = "./img/Slideshows/slideshow-04.jpeg";
-images[4] = "./img/Slideshows/slideshow-05.jpg";
-images[5] = "./img/Slideshows/slideshow-06.jpg";
+images[4] = "./img/Slideshows/slideshow-05.jpeg";
+images[5] = "./img/Slideshows/slideshow-06.jpeg";
 
 function changeImg() {
   slideshow.src = images[i];
