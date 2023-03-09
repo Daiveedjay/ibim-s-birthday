@@ -61,7 +61,7 @@
   font-size: 1.6rem;
 }
 
-.fa-xmark {
+.close {
   cursor: pointer;
   position: absolute;
   top: 15px;
@@ -70,7 +70,7 @@
   transition: all 0.3s ease-in;
 }
 
-.fa-xmark:hover {
+.close:hover {
   transform: rotate(180deg);
 }
 
@@ -88,6 +88,8 @@
   font-family: "Roboto Slab", serif;
   border-radius: 5px;
   transition: all ease-in 0.3s;
+  display: flex;
+  align-items: center;
 }
 
 .slideshow-button a:hover {

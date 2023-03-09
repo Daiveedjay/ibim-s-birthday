@@ -2,13 +2,9 @@
 const modalButton = document.querySelector(".modal-trigger");
 
 const modalWindow = document.querySelector(".modal-window");
-const closeModal = document.querySelector(".fa-xmark");
-
-// console.log(modalButton);
+const closeModal = document.querySelector(".close");
 
 modalButton.addEventListener("click", function (e) {
-  // console.log("Yes");
-  // console.log(e.target);
   modalWindow.style.display = "flex";
 });
 
